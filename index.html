@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>WebGL cars (dynamic cubemap reflections)</title>
+	<meta charset="utf-8">
+	<meta name="description"
+		content="Controllable cars rendered with dynamic cube maps, shadow maps and some postprocessing effects." />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+	<div id="loading">Loading...</div>
+
+	<div id="container"></div>
+
+	<div id="footer">
+		cars control: <span class="h">WASD</span> / <span class="h">arrows</span>
+
+		<div class="c">cameras: <span class="h">1</span> / <span class="h">2</span> / <span class="h">3</span> / <span
+				class="h">4</span>
+			/ <span class="h">5</span> / <span class="h">6</span>
+		</div>
+
+		<div class="c">
+			day / night: <span class="h">n</span>
+		</div>
+
+		<div class="c">
+			motion blur: <span class="h">b</span>
+		</div>
+	</div>
+
+	<script src="js/ThreeCars.js"></script>
+	<script src="js/Detector.js"></script>
+	<script src="js/RequestAnimationFrame.js"></script>
+	<script src="js/Stats.js"></script>
+	<script src="js/ShaderExtrasCars.js"></script>
+	<script src="js/PostprocessingCars.js"></script>
+	<script src="js/CubeCamera.js"></script>
+	<script src="js/Car.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
